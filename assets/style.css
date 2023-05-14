@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 0.6px;
+}
+
+.ff{
+    width: auto;
+    height: 1000px;
+    background-color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: #272727;
+}
+
+/* HEADER&NAV */
+header{
+    box-shadow: 0 4px 8px 2px rgba(0,5,13,.5);
+    top: 15px;
+    right: 27%;
+    position: fixed;
+    height: 69px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    border-radius: 15px;
+}
+
+a{
+    font-weight: 600;
+    color: #fcca6e;
+}
+
+a:hover{
+    color: #ffa600;
+    transition: 0.5s;
+}
+
+.nav{
+    display: flex;
+    padding: 0px 24px;
+
+}
+
+.user{
+    padding-left: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.dos{
+    margin: 15px;
+}
+
+.uno{
+    margin-right: 30px;
+    margin-left: 5px;
+}
+
+.imagen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.37298669467787116) 0%, rgba(0,0,0,0.36738445378151263) 100%), url(../img/imgfondo.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 73%, 0 64%);
+    z-index: -1;
+}
+
+.juego1{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 1070px;
+    right: 0;
+}
+
+.descuento{
+    display: flex;
+    align-items: center;
+}
+
+.descuentoboton{
+    
+    font-size: 15px;
+    margin-left: 180px;
+    background-color: orange;
+    border-radius: 10px 20px 10px 10px;
+    width: 60px;
+    text-align: center;
+    height: 50px;
+}
+
+.precio{
+    margin-left: 30px;
+}
+
+.container{
+    color: white;
+    margin-top: 750px;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
+.carta1{
+    text-align: center;
+    width: 380.8px;
+    height: auto;
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 0 10px 30px #000;
+}
+
+#filter{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.cartas{
+    align-content: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    height: 1000px;
+    width: auto;
+}
+
+
+#img1{
+    border-radius: 20px;
+}
+
+.descripcion1{
+    margin-left: 20px;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+.precio1{
+    margin-left: 110px;
+}
+
+footer{
+    width: auto;
+    height: 400px;
+    background-color: red;
+}
